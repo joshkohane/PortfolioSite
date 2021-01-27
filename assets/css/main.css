@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #5fa1d6;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5fa1d6 15%, #551ece 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5fa1d6 15%, #551ece 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #5fa1d6 15%, #551ece 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #5fa1d6 15%, #551ece 85%);
+		background-color: #68a4d5;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #68a4d5 15%, #28719c 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #68a4d5 15%, #28719c 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #68a4d5 15%, #28719c 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #68a4d5 15%, #28719c 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #551ece;
+		background-color: #28719c;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2226,6 +2226,11 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.icon.solid.major.style1.schools {
+		max-width: 180px;
+		max-height: auto;
+	}
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -2428,7 +2433,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		/* margin: 0 0 2em 0; */
 		padding-left: 1em;
 	}
 
@@ -2868,7 +2873,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		/* margin: 0 0 3em 0; */
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -2902,6 +2907,15 @@ input, select, textarea {
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
+			}
+
+			.skill-logos {
+				max-height: 100px;
+			}
+
+			.skills-label {
+				color: #636363;
+				margin-bottom: 0px;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -2944,9 +2958,9 @@ input, select, textarea {
 
 			.statistics {
 				display: block;
-				width: 20em;
+				/* width: 20em; */
 				max-width: 100%;
-				margin: 0 auto 2em auto;
+				/* margin: 0 auto 2em auto; */
 			}
 
 				.statistics li:first-child {
@@ -3018,6 +3032,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.project {
+				margin-bottom: 2em;
+			}
+
 			.spotlight {
 				-moz-flex-direction: column-reverse;
 				-webkit-flex-direction: column-reverse;
@@ -3056,7 +3074,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					margin-left: 0;
-					margin-bottom: 2em;
+					/* margin-bottom: 2em; */
 				}
 
 		}
@@ -3706,7 +3724,7 @@ input, select, textarea {
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			/* margin-left: 2em; */
 		}
 
 		#footer .copyright {
